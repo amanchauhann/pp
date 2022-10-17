@@ -145,123 +145,74 @@ class Project {
 
 const projects = [
   {
-    projectName: "Chat Loop",
+    projectName: "Quizzical",
     projectDescription:
-      "Chat Loop is a highly scalable, low cost and high performant chat application built on AWS and React leveraging GraphQL subscriptions for real time communication.",
-    projectImage: "images/chatloop.png",
-    codeLink: "https://github.com/smilegupta/chatloop-frontend",
-    demoLink: "https://chat-loop.smilegupta.tech/"
+      "Designed and built the application using react hooks and session storage using OTDB API.",
+    projectImage: "images/quizzical.jpeg",
+    codeLink: "https://github.com/amanchauhann/Quizzical-aman",
+    demoLink: "https://quizzicalbyaman.netlify.app/"
   },{
-    projectName: "Image Dock",
+    projectName: "FavMovie",
     projectDescription:
-      "ImageDock is a one-stop solution to upload images, create albums and get embedded codes.",
+      "This application allows to search and explore and add to favorites using Local storage using Vanilla Javascript.",
     projectImage: "images/imagedock.png",
     codeLink: "https://github.com/smilegupta/ImageDock",
     demoLink: "https://image-dock.smilegupta.tech/"
   },{
-    projectName: "Notes Yard",
+    projectName: "Lead Tracker Chrome Extension",
     projectDescription:
-      "Its an application to create notes and notebooks.",
-    projectImage: "images/notesyard.png",
-    codeLink: "https://github.com/smilegupta/notes-yard-frontend",
-    demoLink: "https://notes-yard.smilegupta.tech/"
+      "Its a browser extension which can be used to save active tab's link in the local storage.",
+    projectImage: "images/leadtracker.jpeg",
+    codeLink: "https://github.com/amanchauhann/LeadTracker-extension",
+    demoLink: "https://twitter.com/phantomthread_d/status/1523740161057513473"
   },{
-    projectName: "Movies Deck",
+    projectName: "RoboFriends",
     projectDescription:
-      "Movie's Deck is a movie listing application. In addition to exploring and searching the listed movies, you can also create watchlists and add movies in your watchlists.",
-    projectImage: "images/movies.png",
-    codeLink: "https://github.com/smilegupta/movies-deck",
-    demoLink: "https://movies-deck.smilegupta.tech/"
+      "Fun project built using react and tachyon library and filter method.",
+    projectImage: "images/robofriends.jpg",
+    codeLink: "https://github.com/amanchauhann/Robo-friends",
+    demoLink: "https://amanchauhann.github.io/robofriends/"
   },
   {
-    projectName: "Talent Board",
+    projectName: "Color Scheme",
     projectDescription:
-      "This is a community initiative to connect active job seekers with organizations and people who participate in employee referral programs.",
-    projectImage: "images/talentboard.png",
-    codeLink: "https://github.com/CodeOpsTechnologies/talent-board-fe",
-    demoLink: "https://talent.awsug.in/"
+      "It let you send Seed Color & type, then return color scheme along with HEX code using Color API.",
+    projectImage: "images/color.jpg",
+    codeLink: "https://github.com/amanchauhann/Solo-challenge",
+    demoLink: "https://clinquant-paprenjak-de13b2.netlify.app/"
   },
   {
-    projectName: "Pokedex",
+    projectName: "Tesla Clone",
     projectDescription:
-      "Pokedex is an application built using typescript to get the check the list of pokemons and their properties.",
-    projectImage: "images/pokedex.png",
-    codeLink: "https://github.com/smilegupta/pokedex",
-    demoLink: "https://pokedeck.smilegupta.tech/"
+      "Clone of Tesla Motors to fresh up UI and CSS skills using Styled Components in react.",
+    projectImage: "images/tesla.jpg",
+    codeLink: "https://github.com/amanchauhann/tesla",
+    demoLink: "https://teslaa-motors.netlify.app/"
   },
   {
-    projectName: "Lets Play with APIs: Breaking Bad",
+    projectName: "Background Generator",
     projectDescription:
-      "Designed & built a the application using Axios and React-Hooks to display characters of a Sci-fic show Breaking Bad.",
-    projectImage: "images/Screenshot (698).png",
-    codeLink: "https://github.com/smilegupta/breaking-bad",
-    demoLink: "https://breaking-bad-api-pink.vercel.app/"
+      "Built using HTML, CSS and Vanilla JS to generate background gradient along with color code.",
+    projectImage: "images/backgroundGenerator.jpg",
+    codeLink: "https://github.com/amanchauhann/background-genererator",
+    demoLink: "https://radiant-dieffenbachia-3d1ebc.netlify.app/"
   },
   {
-    projectName: "Portfolio with Theme Changer",
+    projectName: "BlackJack Game",
     projectDescription:
-      "Designed & Built the Portfolio using HTML CSS and Vanilla JavaScript to show case the Professional Journey.",
-    projectImage: "images/Screenshot (851).png",
-    codeLink: "https://github.com/smilegupta/portfolio-smilegupta",
-    demoLink: "https://smilegupta.github.io/portfolio-smilegupta/"
+      "Built famous BlackJack Game during my early JavaScript learnings.",
+    projectImage: "images/blackjack.jpg",
+    codeLink: "https://github.com/amanchauhann/BlackJack",
+    demoLink: "https://playblackjackgame.netlify.app/"
   },
   {
-    projectName: "Rotating Navigation",
+    projectName: "3 idiots quiz",
     projectDescription:
-      "Designed & Built the Rotating NavBar animation using HTML CSS and Vanilla avaScript.",
-    projectImage: "images/rotating-nav.png",
-    codeLink: "https://github.com/smilegupta/Rotating-navigation",
-    demoLink: "https://smilegupta.github.io/Rotating-navigation/"
+      "My first App, a CLI app quiz for 3 idiots movie.",
+    projectImage: "images/cli.jpeg",
+    codeLink: "https://github.com/amanchauhann/3idiots",
+    demoLink: "https://replit.com/@amanchauhann/3idiots"
   },
-  {
-    projectName: "Expanding Card Animation",
-    projectDescription:
-      "Designed & Built the Expanding Cards animation using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/animation.png",
-    codeLink: "https://github.com/smilegupta/expanding-cards",
-    demoLink: "https://smilegupta.github.io/expanding-cards/"
-  },
-  {
-    projectName: "Password Strength Tester",
-    projectDescription:
-      "Designed & Built the Password Strength Tester using React-Hooks and 'zxcvbn' package.",
-    projectImage: "images/password.png",
-    codeLink: "https://github.com/smilegupta/password-strength-validator",
-    demoLink: "https://github.com/smilegupta/password-strength-validator"
-  },
-  {
-    projectName: "Light Dark Switch",
-    projectDescription:
-      "Designed & Built the Light and Dark Switch using React-Hooks and local storage.",
-    projectImage: "images/switch.png",
-    codeLink: "https://github.com/smilegupta/Dark-Light-mode",
-    demoLink: "https://dark-light-mode.vercel.app/"
-  },
-  {
-    projectName: "Hangman Game",
-    projectDescription:
-      "Designed & Built Hangman Game using React and React-Hooks.",
-    projectImage: "images/hangman.png",
-    codeLink: "https://github.com/smilegupta/Hangman-Game-React",
-    demoLink: "https://hangman-game-react.vercel.app/"
-  },
-  {
-    projectName: "Devil Button",
-    projectDescription:
-      "Designed & Built Devil Button Game using HTML and JavaScript.",
-    projectImage: "images/devil button.png",
-    codeLink: "https://github.com/smilegupta/Devil-Button",
-    demoLink: "https://smilegupta.github.io/Devil-Button/"
-  },
-  {
-    projectName: "JavaScript Quiz",
-    projectDescription:
-      "Designed & Built Quizzing Application using HTML CSS and Vanilla JavaScript.",
-    projectImage: "images/quiz.png",
-    codeLink: "https://smilegupta.github.io/JavaScript-QuizApp/",
-    demoLink: "https://smilegupta.github.io/JavaScript-QuizApp/"
-  },
- 
 ];
 
 const createCards = () => {

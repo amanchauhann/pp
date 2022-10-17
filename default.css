@@ -97,12 +97,13 @@ h6 {
     display: grid;
     text-align: center;
     align-content: center;
-    min-height: 10em;
+    min-height: 95vh;
+
 }
 
-.intro-wrapper {
+/* .intro-wrapper {
     background-color: var(--secondaryColor);
-    border: 1px solid var(--borderColor);
+    border: 10px solid red;
     border-radius: 5px 5px 0 0;
 
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -114,7 +115,7 @@ h6 {
     grid-template-areas:
         "nav-wrapper nav-wrapper"
         "left-column right-column";
-}
+} */
 
 .nav-wrapper {
     border-radius: 5px 5px 0 0;

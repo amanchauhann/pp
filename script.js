@@ -156,8 +156,8 @@ const projects = [
     projectDescription:
       "This application allows to search and explore and add to favorites using Local storage using Vanilla Javascript.",
     projectImage: "images/imagedock.png",
-    codeLink: "https://github.com/smilegupta/ImageDock",
-    demoLink: "https://image-dock.smilegupta.tech/"
+    codeLink: "https://github.com/amanchauhann/S-Movie",
+    demoLink: "https://frabjous-babka-8fc1bf.netlify.app/"
   },{
     projectName: "Lead Tracker Chrome Extension",
     projectDescription:

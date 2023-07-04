@@ -1,30 +1,30 @@
 function setTheme(mode) {
   if (mode === "light") {
     document.getElementById("theme-style").href = "default.css";
-    document.getElementById('github').style.fill="black";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="black";
+    document.getElementById('github').style.fill = "black";
+    document.getElementById('codesandbox').style.fill = "black";
+    document.getElementById('codepen').style.fill = "black";
   }
 
   if (mode === "blue") {
     document.getElementById("theme-style").href = "blue.css";
-    document.getElementById('github').style.fill="white";
-    document.getElementById('codesandbox').style.fill="white";
-    document.getElementById('codepen').style.fill="white";
+    document.getElementById('github').style.fill = "white";
+    document.getElementById('codesandbox').style.fill = "white";
+    document.getElementById('codepen').style.fill = "white";
   }
 
   if (mode === "green") {
     document.getElementById("theme-style").href = "green.css";
-    document.getElementById('github').style.fill="black";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="black";
+    document.getElementById('github').style.fill = "black";
+    document.getElementById('codesandbox').style.fill = "black";
+    document.getElementById('codepen').style.fill = "black";
   }
 
   if (mode === "purple") {
     document.getElementById("theme-style").href = "purple.css";
-    document.getElementById('github').style.fill="white";
-    document.getElementById('codesandbox').style.fill="black";
-    document.getElementById('codepen').style.fill="white";
+    document.getElementById('github').style.fill = "white";
+    document.getElementById('codesandbox').style.fill = "black";
+    document.getElementById('codepen').style.fill = "white";
   }
   localStorage.setItem("theme", mode);
 }
@@ -38,20 +38,20 @@ else setTheme("light");
 let themeDots = document.getElementsByClassName("theme-dot");
 
 for (let theme = 0; themeDots.length > theme; theme++) {
-    themeDots[theme].addEventListener("click", function () {
-        let mode = this.dataset.mode;
-        setTheme(mode);
-    });
+  themeDots[theme].addEventListener("click", function () {
+    let mode = this.dataset.mode;
+    setTheme(mode);
+  });
 }
 
 class Project {
   constructor({
-                projectName,
-                projectDescription,
-                projectImage,
-                codeLink,
-                demoLink
-              }) {
+    projectName,
+    projectDescription,
+    projectImage,
+    codeLink,
+    demoLink
+  }) {
     this.title = this.createHeadingTag({
       headingType: "h6",
       className: "post-title",
@@ -145,27 +145,43 @@ class Project {
 
 const projects = [
   {
+    projectName: "Loop: Social Media",
+    projectDescription:
+      "CRUD functionality, Debouncer, JWT authentication and Reducer for state management.",
+    projectImage: "images/loop.jpeg",
+    codeLink: "https://github.com/amanchauhann/Loop",
+    demoLink: "https://loop-rouge.vercel.app/"
+  },
+  {
+    projectName: "Rones: E-commerce for drones",
+    projectDescription:
+      "Designed and built Ecommerce using ContextAPI, local storage, Auth, Pagination and responsive.",
+    projectImage: "images/rones.jpeg",
+    codeLink: "https://github.com/amanchauhann/my-app",
+    demoLink: "https://my-app-pi-eosin.vercel.app/"
+  },
+  {
     projectName: "Quizzical",
     projectDescription:
       "Designed and built the application using react hooks and session storage using OTDB API.",
     projectImage: "images/quizzical.jpeg",
     codeLink: "https://github.com/amanchauhann/Quizzical-aman",
     demoLink: "https://quizzicalbyaman.netlify.app/"
-  },{
+  }, {
     projectName: "FavMovie",
     projectDescription:
       "This application allows to search and explore and add to favorites using Local storage using Vanilla Javascript.",
     projectImage: "images/imagedock.png",
     codeLink: "https://github.com/amanchauhann/S-Movie",
     demoLink: "https://frabjous-babka-8fc1bf.netlify.app/"
-  },{
+  }, {
     projectName: "Lead Tracker Chrome Extension",
     projectDescription:
       "Its a browser extension which can be used to save active tab's link in the local storage.",
     projectImage: "images/leadtracker.jpeg",
     codeLink: "https://github.com/amanchauhann/LeadTracker-extension",
     demoLink: "https://twitter.com/phantomthread_d/status/1523740161057513473"
-  },{
+  }, {
     projectName: "RoboFriends",
     projectDescription:
       "Fun project built using react and tachyon library and filter method.",
@@ -217,15 +233,15 @@ const projects = [
 
 const createCards = () => {
   projects.map(project => {
-      const projectCard = new Project({
-        projectName: project.projectName,
-        projectDescription: project.projectDescription,
-        projectImage: project.projectImage,
-        codeLink: project.codeLink,
-        demoLink: project.demoLink
-      }).createProjectCard();
-      document.getElementById("post-wrapper-id").appendChild(projectCard);
-    }
+    const projectCard = new Project({
+      projectName: project.projectName,
+      projectDescription: project.projectDescription,
+      projectImage: project.projectImage,
+      codeLink: project.codeLink,
+      demoLink: project.demoLink
+    }).createProjectCard();
+    document.getElementById("post-wrapper-id").appendChild(projectCard);
+  }
   );
 };
 createCards();

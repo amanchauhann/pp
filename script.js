@@ -161,13 +161,38 @@ const projects = [
     demoLink: "https://my-app-pi-eosin.vercel.app/"
   },
   {
+    projectName: "GitSafe",
+    projectDescription:
+      "Chrome extension that let you open any github repository directly in developer enviornment rather than cloning it.",
+    projectImage: "images/gitsafe.png",
+    codeLink: "https://github.com/amanchauhann/GitSafe",
+    demoLink: "https://twitter.com/phantomthread_d/status/1654179430594387968"
+  },
+  {
+    projectName: "NAILS",
+    projectDescription:
+      "Small Mails App with features filters, spam, trash, star etc. Built with react reducer and hooks.",
+    projectImage: "images/nails.jpeg",
+    codeLink: "https://codesandbox.io/s/react-ex10-neog-edy3be",
+    demoLink: "https://edy3be.csb.app/"
+  },
+  {
+    projectName: "Food Ordering",
+    projectDescription:
+      "Mini food ordering app with features filters, sort, add to cart, discount etc.",
+    projectImage: "images/food.jpeg",
+    codeLink: "https://codesandbox.io/s/3-4-react-ex9-neog-forked-djjsif",
+    demoLink: "https://djjsif.csb.app/"
+  },
+  {
     projectName: "Quizzical",
     projectDescription:
       "Designed and built the application using react hooks and session storage using OTDB API.",
     projectImage: "images/quizzical.jpeg",
     codeLink: "https://github.com/amanchauhann/Quizzical-aman",
     demoLink: "https://quizzicalbyaman.netlify.app/"
-  }, {
+  }, 
+  {
     projectName: "FavMovie",
     projectDescription:
       "This application allows to search and explore and add to favorites using Local storage using Vanilla Javascript.",
